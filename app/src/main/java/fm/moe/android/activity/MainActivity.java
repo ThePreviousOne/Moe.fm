@@ -38,9 +38,9 @@ public class MainActivity extends Activity {
         startActivity(intent);
     }
 
-    static final class NetworkConfirmDialogFragment extends DialogFragment implements DialogInterface.OnClickListener {
+    public static final class NetworkConfirmDialogFragment extends DialogFragment implements DialogInterface.OnClickListener {
 
-        NetworkConfirmDialogFragment(){}
+        public NetworkConfirmDialogFragment(){}
 
 		@Override
 		public void onClick(final DialogInterface dialog, final int which) {
